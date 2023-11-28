@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  p {
+    font-family: Arial, Helvetica, sans-serif
+  }
+#Banner {
+    margin-top: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+h1,h2 {
+    text-align: center;
+}
+h1 {
+    text-shadow: 2px 2px 2px black;
+    background-color: rgb(240, 43, 43);
+    color:rgb(255, 255, 255)
+}
+h2 {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(240, 43, 43);
+    color:rgb(255, 255, 255)
+}
+h3 {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(240, 43, 43);
+    color:rgb(255, 255, 255)
+}
+
+nav ul li{
+    display: inline;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 34, 34);
+    padding: 0 20px;
+}
