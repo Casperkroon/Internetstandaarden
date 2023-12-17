@@ -1,11 +1,60 @@
+/*Main stuff*/
+/*Main stuff*/
+/*Main stuff*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-image: url("images/wallpaper2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
   p {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
-#Banner {
-    margin-top: 10px;
+
+.kopje1,p {
+    font-size: 17px;
+}
+header {
+    background-image: linear-gradient(rgb(33, 23, 138),rgb(81, 44, 167));
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    padding-top: 7px;
+    border-bottom: solid rgb(255, 255, 255) 10px;
+    box-shadow: black 3px 3px 20px;
+}
+.banner {
+    margin-top: 14px;
+    padding-top: 4px;
+    background-color: white;
+    border: 8px solid rgb(35, 35, 35);
+    box-shadow: black 2px 2px 2px;
+}
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Einde main stuff*/
+
+/*Nav bar*/
+/*Nav bar*/
+/*Nav bar*/
+
+.current{
+    border: solid 4px rgb(105, 43, 240);
+    border-radius: 20px;
 }
 nav ul {
     list-style-type: none;
@@ -13,38 +62,578 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: space-evenly;
-
 }
-h1,h2 {
-    text-align: center;
+nav ul li {
+    transition: all 0.2s;
 }
-h1 {
-    text-shadow: 2px 2px 2px black;
-    background-color: rgb(240, 43, 43);
-    color:rgb(255, 255, 255)
+nav ul li:hover {
+    transform:scale(1.2)
 }
-h2 {
-    text-shadow: 1px 1px 1px black;
-    background-color: rgb(240, 43, 43);
-    color:rgb(255, 255, 255)
-}
-h3 {
-    text-shadow: 1px 1px 1px black;
-    background-color: rgb(240, 43, 43);
-    color:rgb(255, 255, 255)
-}
-
 nav ul li{
     display: inline;
-
 }
-
 nav a {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    background-color: rgb(255, 255, 255);
-    color: rgb(34, 34, 34);
+    background-color: rgb(105, 43, 240);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
     padding: 0 20px;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 2px;
+    box-shadow: black 2px 2px 2px;
+}
+
+/*Einde nav bar*/
+
+/*Images*/
+/*Images*/
+/*Images*/
+
+.imgvinland {
+    float:right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px;
+}
+.imgjjk {
+    float: right;
+}
+section img {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding-bottom: 10px;
+    border-bottom: 20px solid rgb(105, 43, 240);
+    border-radius: 5px;
+}
+.imgaot {
+    display:block;
+    margin-left: 19vw;
+}
+.todogif {
+    height: 300px;
+    width: auto;
+    float: right;
+    margin-top: 18vh;
+    margin-right: 1em;
+    margin-left: 1em;
+    border-radius: 5px;
+    border-left: solid rgb(105, 43, 240) 10px;
+    padding-left: 10px;
+}
+.ptodo {
+    margin-left: 57vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.ptodo, .ptodo:hover, .ptodo:active, .ptodo:visited { 
+    color: rgb(21, 21, 21); 
+   }
+/*Einde images*/
+
+/*P en text*/
+/*P en text*/
+/*P en text*/
+
+.titan {
+    text-align: center;
+}
+.titanbox {
+    border-left: solid rgb(105, 43, 240) 5px;
+    border-right: solid rgb(105, 43, 240) 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.blindp {
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+.warningvinland {
+    margin-top: 5vh;
+}
+ .marginbot5 {
+    margin-bottom: 5%;
+}
+.section2 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+/*headings en boxes*/
+/*headings en boxes*/
+/*headings en boxes*/
+
+h1 {
+    text-shadow: 2px 2px 2px black;
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+    border: 5px solid rgb(105, 43, 240);
+    background-color: rgb(105, 43, 240);
+    text-align: center;
+    padding: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    box-shadow: black 2px 2px 2px;
+}
+h2 {
+    color:rgb(240, 240, 240);
+    background-color: rgb(38, 7, 106);
+    width: 584px;
+    height: 40px;
+    padding: 4px;
+    border: 5px solid rgb(38, 7, 106);
+    margin-left: 26%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    padding-bottom: 30px;
+    box-shadow: black 2px 2px 2px;
+}
+h3 {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    width: 50vw;
+    height: 12vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    box-shadow: rgb(38, 7, 106) 2px 2px 2px;
+}
+.expect {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    width: 23vw;
+    height: 8vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+.blindpick {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    height: 7.5vh;
+    padding: 5px;
+    margin-left: 13vw;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    align-content: center;
+} 
+.aot {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    height: 7.5vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin-left: 13vw;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    align-content: center;
+}
+.blindpick {
+    font-size: 28px;
+}
+.vinland {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    width: 34vw;
+    height: 7.5vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+.action {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    width: 40vw;
+    height: 7.5vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+}
+.jjk, .yourname, .crunchyroll, .netflix, .aniwave {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    width: 27vw;
+    height: 7.5vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+.demonslayer {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    width: 35vw;
+    height: 7.5vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+.scifi {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    width: 39vw;
+    height: 7.5vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+}
+.cyberpunk, .steinsgate {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    width: 36vw;
+    height: 7.5vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+.romance {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    width: 43vw;
+    height: 7.5vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+}
+.yourlie {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    width: 37vw;
+    height: 7.5vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+.wheretowatch {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    width: 40vw;
+    height: 7.5vh;
+    padding: 5px;
+    border: 5px solid rgb(105, 43, 240);
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 17px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+}
+h4 {
+    font-size: 18px;
+}
+
+/*eind headings en boxes*/
+/*eind headings en boxes*/
+/*eind headings en boxes*/
+
+main,footer {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-top: 1px;
+    margin-top: 8mm;
+    background-color: aliceblue;
+    opacity: 97%;
+    border: solid rgb(72, 15, 186) 7px;
+    border-bottom: solid rgb(72, 15, 186) 15px;
+    border-top: solid rgb(72, 15, 186) 8px;
+    border-radius: 10px;
+    box-shadow: black 3px 3px 20px;
+}
+.final {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    border-radius: 6px;
+    color:rgb(255, 255, 255); 
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    margin-top: 2vh;
+}
+footer p {
+    margin-top: 2vh;
+    margin-left: 5px;
+}
+div ul, li h4 {
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.kopje1 h4 {
+    background-color: rgb(105, 43, 240);
+    color: white;
+    margin-right: 1.5vw;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+/*Scifi tab hover effects*/
+/*Scifi tab hover effects*/
+/*Scifi tab hover effects*/
+
+.cyberpunkdiv {
+    display: flex;
+}
+.cyberpunkdiv img {
+    flex-flow: row nowrap;
+    width: 250px;
+    height: 180px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+.cyberpunkdiv img {
+    transition: all 0.2s
+}
+.cyberpunkdiv img:hover {
+    transform: translateY(0.5em);
+}
+.steinsgatediv {
+    display: flex;
+}
+.steinsgatediv img {
+    flex-flow: row nowrap;
+    width: 300px;
+    height: 200px;
+    margin: 16px;
+}
+.steinsgatediv img {
+    transition: all 0.2s;
+}
+.steinsgatediv img:hover {
+    transform: scale(1.1);
+}
+
+/*Einde scifi hover effects*/
+
+/*Flip box*/
+/*Flip box*/
+/*Flip box*/
+
+.flip_box {
+    float: right;
+    margin-right: 2em;
+    background-color: transparent;
+    width: 500px;
+    height: 300px;
+    perspective: 1000px;
+    /* Verwijder voor geen 3D effect */
+  }
+  .flip_box_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip_box:hover .flip_box_inner {
+    transform: rotateY(180deg);
+  }
+  .flip_box_front,
+  .flip_box_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .flip_box_back {
+    background-color: rgb(105, 43, 240);
+    color: white;
+    text-shadow: black 1px 1px;
+    padding-bottom: 10px;
+    border-bottom: 20px solid rgb(105, 43, 240);
+    border-radius: 5px;
+    transform: rotateY(180deg);
+  }
+   .flip_box_back h4, p {
+    margin-top: 10.5px;
+   }
+   .yournamedescription {
+    font-size: 13px;
+   }
+   .yournamedescription2 p {
+    width: 42%;
+   }
+
+   /*Einde flip box*/
+
+   /*Hover text wheretowatch*/
+   /*Hover text wheretowatch*/
+   /*Hover text wheretowatch*/
+
+   .wrapper {
+    width: 100%;
+   }
+   .afbeelding {
+    width: 500px;
+    position: relative;
+    margin-left: 20px;
+   }
+   .afbeelding img {
+    width: 100%;
+    display: block;
+    margin: auto;
+   }
+   .content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 0.6s;
+    border-radius: 5px;
+   }
+   .content:hover {
+    opacity: 1;
+   }
+   .content h4 {
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: black 2px 2px 2px;
+    margin-bottom: 15px;
+    background-color: rgb(255, 111, 0);
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 14px;
+   }
+   .content .netflix4 {
+    color: red;
+    background-color: white;
+    padding: 10px;
+    padding-right: 14px;
+    border-radius: 5px;
+   }
+   .content .aniwave4 {
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    padding-right: 14px;
+    border-radius: 5px;
+   }
+   .content p {
+    font-size: 30px;
+    color: white;
+   }
+   .content a, content a:hover, content a:active, content a:visited { 
+    color: white; 
+   }
+   .content > * {
+    transform: translateY(25px);
+    transition: all 0.6s;
+   }
+   .content:hover > * {
+    transform: translateY(0px);
+   }
+
+   /*Einde hover text*/
+   
+  .footer {
+    font-size: x-small;
+  }
+  .sources {
+    list-style-type: none;
+    display: flex;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.sources li {
+    margin-right: 20px;
 }
