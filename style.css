@@ -45,6 +45,51 @@ header {
     max-width: 100%;
     height: auto;
 }
+main,footer {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-top: 1px;
+    margin-top: 8mm;
+    background-color: aliceblue;
+    opacity: 97%;
+    border: solid rgb(72, 15, 186) 7px;
+    border-bottom: solid rgb(72, 15, 186) 15px;
+    border-top: solid rgb(72, 15, 186) 8px;
+    border-radius: 10px;
+    box-shadow: black 3px 3px 20px;
+}
+.final {
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(105, 43, 240);
+    border-radius: 6px;
+    color:rgb(255, 255, 255); 
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    margin-top: 2vh;
+}
+footer p {
+    margin-top: 2vh;
+    margin-left: 5px;
+}
+div ul, li h4 {
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.kopje1 h4 {
+    background-color: rgb(105, 43, 240);
+    color: white;
+    margin-right: 1.5vw;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
 
 /*Einde main stuff*/
 
@@ -413,52 +458,6 @@ h4 {
 /*eind headings en boxes*/
 /*eind headings en boxes*/
 
-main,footer {
-    width: 80%;
-    margin: 0 auto;
-    padding-left: 8px;
-    padding-bottom: 8px;
-    padding-right: 8px;
-    padding-top: 1px;
-    margin-top: 8mm;
-    background-color: aliceblue;
-    opacity: 97%;
-    border: solid rgb(72, 15, 186) 7px;
-    border-bottom: solid rgb(72, 15, 186) 15px;
-    border-top: solid rgb(72, 15, 186) 8px;
-    border-radius: 10px;
-    box-shadow: black 3px 3px 20px;
-}
-.final {
-    text-shadow: 1px 1px 1px black;
-    background-color: rgb(105, 43, 240);
-    border-radius: 6px;
-    color:rgb(255, 255, 255); 
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 20px;
-    margin-top: 2vh;
-}
-footer p {
-    margin-top: 2vh;
-    margin-left: 5px;
-}
-div ul, li h4 {
-    text-decoration: none;
-    list-style-type: none;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-.kopje1 h4 {
-    background-color: rgb(105, 43, 240);
-    color: white;
-    margin-right: 1.5vw;
-    padding-left: 5px;
-    padding-bottom: 2px;
-    padding-top: 2px;
-}
-
 /*Scifi tab hover effects*/
 /*Scifi tab hover effects*/
 /*Scifi tab hover effects*/
@@ -501,6 +500,7 @@ div ul, li h4 {
 /*Flip box*/
 /*Flip box*/
 
+/*Bron: Ryan*/
 .flip_box {
     float: right;
     margin-right: 2em;
@@ -553,6 +553,7 @@ div ul, li h4 {
    /*Hover text wheretowatch*/
    /*Hover text wheretowatch*/
 
+   /*Bron: https://www.youtube.com/watch?v=hr4JiDr7Aec */
    .wrapper {
     width: 100%;
    }
